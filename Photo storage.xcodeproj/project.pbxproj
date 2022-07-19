@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		744194B22885766B00D254CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744194B12885766B00D254CD /* AppDelegate.swift */; };
 		744194B42885766B00D254CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744194B32885766B00D254CD /* SceneDelegate.swift */; };
-		744194B62885766B00D254CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744194B52885766B00D254CD /* ViewController.swift */; };
 		744194B92885766B00D254CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744194B72885766B00D254CD /* Main.storyboard */; };
 		744194BB2885766D00D254CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744194BA2885766D00D254CD /* Assets.xcassets */; };
 		744194BE2885766D00D254CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744194BC2885766D00D254CD /* LaunchScreen.storyboard */; };
+		744194CD2885879100D254CD /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744194CC2885879100D254CD /* StarViewController.swift */; };
+		744194CF2885882900D254CD /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744194CE2885882900D254CD /* CreateViewController.swift */; };
+		744194D12885A9F200D254CD /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744194D02885A9F200D254CD /* SaveData.swift */; };
+		744194D32885B07C00D254CD /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744194D22885B07C00D254CD /* MenuViewController.swift */; };
+		748043DF2886DC7500183A33 /* SavedPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748043DE2886DC7500183A33 /* SavedPhotoViewController.swift */; };
+		748043E12886DD2800183A33 /* AddNewPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748043E02886DD2800183A33 /* AddNewPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		744194AE2885766B00D254CD /* Photo storage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo storage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		744194B12885766B00D254CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		744194B32885766B00D254CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		744194B52885766B00D254CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		744194B82885766B00D254CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		744194BA2885766D00D254CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		744194BD2885766D00D254CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		744194BF2885766D00D254CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		744194CC2885879100D254CD /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
+		744194CE2885882900D254CD /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreateViewController.swift; path = ../CreateViewController.swift; sourceTree = "<group>"; };
+		744194D02885A9F200D254CD /* SaveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveData.swift; sourceTree = "<group>"; };
+		744194D22885B07C00D254CD /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		748043DE2886DC7500183A33 /* SavedPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPhotoViewController.swift; sourceTree = "<group>"; };
+		748043E02886DD2800183A33 /* AddNewPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,7 @@
 		744194A52885766B00D254CD = {
 			isa = PBXGroup;
 			children = (
+				748043E02886DD2800183A33 /* AddNewPhotoViewController.swift */,
 				744194B02885766B00D254CD /* Photo storage */,
 				744194AF2885766B00D254CD /* Products */,
 			);
@@ -56,15 +67,27 @@
 		744194B02885766B00D254CD /* Photo storage */ = {
 			isa = PBXGroup;
 			children = (
+				744194B72885766B00D254CD /* Main.storyboard */,
+				748043DE2886DC7500183A33 /* SavedPhotoViewController.swift */,
+				744194D02885A9F200D254CD /* SaveData.swift */,
+				744194C52885784000D254CD /* Controllers */,
 				744194B12885766B00D254CD /* AppDelegate.swift */,
 				744194B32885766B00D254CD /* SceneDelegate.swift */,
-				744194B52885766B00D254CD /* ViewController.swift */,
-				744194B72885766B00D254CD /* Main.storyboard */,
 				744194BA2885766D00D254CD /* Assets.xcassets */,
 				744194BC2885766D00D254CD /* LaunchScreen.storyboard */,
 				744194BF2885766D00D254CD /* Info.plist */,
 			);
 			path = "Photo storage";
+			sourceTree = "<group>";
+		};
+		744194C52885784000D254CD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				744194CC2885879100D254CD /* StarViewController.swift */,
+				744194CE2885882900D254CD /* CreateViewController.swift */,
+				744194D22885B07C00D254CD /* MenuViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				744194B62885766B00D254CD /* ViewController.swift in Sources */,
+				744194CF2885882900D254CD /* CreateViewController.swift in Sources */,
+				744194D32885B07C00D254CD /* MenuViewController.swift in Sources */,
 				744194B22885766B00D254CD /* AppDelegate.swift in Sources */,
+				748043DF2886DC7500183A33 /* SavedPhotoViewController.swift in Sources */,
+				744194CD2885879100D254CD /* StarViewController.swift in Sources */,
 				744194B42885766B00D254CD /* SceneDelegate.swift in Sources */,
+				748043E12886DD2800183A33 /* AddNewPhotoViewController.swift in Sources */,
+				744194D12885A9F200D254CD /* SaveData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +332,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +360,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
